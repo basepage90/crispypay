@@ -1,0 +1,36 @@
+# 빌드 결과물
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go 모듈 캐시
+vendor/
+bin/
+build/
+
+# Go 테스트 출력
+*.cover
+*.coverprofile
+
+# IDE / 에디터 관련 파일
+.idea/
+.vscode/
+*.swp
+*.swo
+*.log
+
+# Mac OS 관련
+.DS_Store
+
+# 환경변수 파일
+.env
+.env.local
+.env.*.local
+
+# 임시파일
+tmp/
+temp/
