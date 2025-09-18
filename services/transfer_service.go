@@ -135,11 +135,11 @@ func makeURL(partnerProvider string) string {
 	port := ""
 
 	switch upperProvider {
-	case "FASTPAY":
+	case "PARTNER1":
 		port = ":8001"
-	case "SAFETRANSFER":
+	case "PARTNER2":
 		port = ":8002"
-	case "BUDGETSEND":
+	case "PARTNER3":
 		port = ":8003"
 	default:
 		port = ":8001"
